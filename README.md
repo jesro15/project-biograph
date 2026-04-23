@@ -2,7 +2,7 @@
 
 This project uses a hypergraph to represent how proteins control the movement of ions in/out of a cell (called an electrochemical gradient). It is an incredibly simple toy representation of this dynamic, and is meant to provide *some* scaffold for more interesting iterations. 
 
-Hypergraphs are graphs with the property that edges can contain any number of nodes. This may be useful for a system or network-like model where we want to computationally represent multiple nodes in a single connection.
+Hypergraphs are graphs with the property that edges can contain any number of nodes. This may be useful for a system or network-like model where we want to computationally represent multiple nodes in an edge.
 
 # Implementation
 In this example the **nodes** are receptors/channels/pumps, and **hyperedges** carry a qualitative gradient state. The below diagram is useful for visualizing hypergraphs. You will see more like this if you search online. As a graph, this is technically extending just one piece of usual graph, however as more nodes are added and variations in the sets included in hyperedges (and the impact on the gradient the hyperedge carries), this can get pretty complicated. Here the black boxes are nodes in the graph, and the ovals are the hyperedges: 
