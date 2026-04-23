@@ -1,4 +1,4 @@
-# Overview & Hypergraphs
+# Overview
 
 This project uses a hypergraph to represent how proteins control the movement of ions in/out of a cell (called an electrochemical gradient). It is an incredibly simple toy representation of this dynamic, and is meant to provide *some* scaffold for more interesting iterations. 
 
