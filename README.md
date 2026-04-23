@@ -5,7 +5,7 @@ This project uses a hypergraph to represent how proteins control the movement of
 Hypergraphs are graphs with the property that edges can contain any number of nodes. This may be useful for a system or network-like model where we want to computationally represent multiple nodes in an edge.
 
 # Implementation
-In this example the **nodes** are receptors/channels/pumps, and **hyperedges** carry a qualitative gradient state. The below diagram is useful for visualizing hypergraphs. You will see more like this if you search online. As more nodes are added, different sets are included in the hyperedges, or the information carried in hyperedges is changed, this can become very powerful. Here the black boxes are nodes in the graph, and the ovals are the hyperedges: 
+In this example the **nodes** are receptors/channels/pumps, and **hyperedges** carry a qualitative gradient state. The below diagram is useful for visualizing hypergraphs. You will see more like this if you search online. As more nodes are added, different sets are included in the hyperedges, or the information carried in hyperedges is changed, this can become very flexible for complicated systems. Here the black boxes are nodes in the graph, and the ovals are the hyperedges: 
 
 ![Hypergraph diagram](img/diagram.svg) 
 
